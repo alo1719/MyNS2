@@ -1,4 +1,4 @@
-#ifndef _ENDIAN_H_
+// #ifndef _ENDIAN_H_
 #define _ENDIAN_H_
 
 #include "proxytrace.h"
@@ -9,4 +9,4 @@ int IsLittleEndian(void);
 /* changes endian-ness */
 void ToOtherEndian(TEntry *e);
 
-#endif
+// #endif
