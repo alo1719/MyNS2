@@ -611,6 +611,11 @@ struct hdr_cmn {
         char src_rt_valid;
 	double ts_arr_; // Required by Marker of JOBS 
 
+	int frametype_;
+	double sendtime_;
+	unsigned int pkt_id_;
+	unsigned int frame_pkt_id_;
+	
 	//Monarch extn begins
 	nsaddr_t prev_hop_;     // IP addr of forwarding hop
 	nsaddr_t next_hop_;	// next hop for this packet
